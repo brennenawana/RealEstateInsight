@@ -1,0 +1,37 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.eggs
+*.whl
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+
+# VS Code specific
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# FastAPI and Uvicorn logs
+*.log
+
+# Models
+model.pkl
+
+# Environment variables
+.env
